@@ -2,9 +2,12 @@ import React from 'react'
 import './Footer.css'
 
 function Footer() {
+    const toTop = () => {
+        window.scrollTo(0, 0)
+    }
     return (
         <div className="footerarea">
-            <div className="footerarea__top">
+            <div onClick={toTop} className="footerarea__top">
                 <p>Back to Top</p>
             </div>
             <div className="footerarea__links">
