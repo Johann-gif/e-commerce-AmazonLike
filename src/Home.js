@@ -11,6 +11,16 @@ function Home(){
                 <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={12.96} rating={3} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
                 <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={13.96} rating={2} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
             </div>
+            <div className="home__row">
+                <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={11.96} rating={4} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
+                <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={12.96} rating={3} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
+                <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={13.96} rating={2} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
+                <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={13.96} rating={2} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
+            </div>
+            <div className="home__row">
+                <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={11.96} rating={4} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
+                <Product id="1231223" title="The Lean Startup: How Contant Innovation" price={12.96} rating={3} image="https://images-eu.ssl-images-amazon.com/images/I/41uNAbThwiL._SY291_BO1,204,203,200_QL40_ML2_.jpg"/>
+            </div>
         </div>
     )
 }
