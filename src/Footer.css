@@ -15,13 +15,35 @@
 
 .footerarea__links{
     width: 70%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 25px;
 }
 
-.footerarea__linkarea{
+/* .footerarea__linkarea{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} */
 
+.footerarea__linkarea > p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footerarea__linkarea > a > p{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.footerarea__linkarea > a:hover > p{
+    text-decoration: underline;
 }

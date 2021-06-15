@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     const toTop = () => {
@@ -12,16 +13,52 @@ function Footer() {
             </div>
             <div className="footerarea__links">
                 <div className="footerarea__linkarea">
-                    <span>Test1</span>
+                    <p><strong>Pour mieux nous connaître</strong></p>
+                    <Link to="/">
+                        <p>À propos d'Amazon</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Carrières</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Durabilité</p>
+                    </Link>
                 </div>
                 <div className="footerarea__linkarea">
-                    <span>Test2</span>
+                    <p><strong>Gagnez de l'argent</strong></p>
+                    <Link to="/">
+                        <p>Vendez sur Amazon</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Vendez sur Amazon Business</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Vendez sur Amazon Handmade</p>
+                    </Link>
                 </div>
                 <div className="footerarea__linkarea">
-                    <span>Test3</span>
+                    <p><strong>Moyens de paiement Amazon</strong></p>
+                    <Link to="/">
+                        <p>Cartes de paiement</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Paiement en plusieurs fois</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Amazon Currency Converter</p>
+                    </Link>
                 </div>
                 <div className="footerarea__linkarea">
-                    <span>Test4</span>
+                    <p><strong>Besoin d'aide ?</strong></p>
+                    <Link to="/">
+                        <p>Amazon et COVID-19</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Voir ou suivre vos commandes</p>
+                    </Link>
+                    <Link to="/">
+                        <p>Tarifs et options de livraison</p>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -61,9 +61,10 @@
 .header__optionBasket{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
-.header__productCount{
+.header__basketCount{
     margin-left: 10px;
     margin-right: 10px;
 }

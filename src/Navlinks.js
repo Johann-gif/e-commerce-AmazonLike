@@ -7,11 +7,11 @@ function Navlinks() {
         <div className="navlinks">
             <div className="navlinks__outer">
                 <div className="navlinks__inner">
-                    <Link>Today's Deals</Link>
-                    <Link>Customer Service</Link>
-                    <Link>Gift Cards</Link>
-                    <Link>Registry</Link>
-                    <Link>Sell</Link>
+                    <Link>Les deals du jour</Link>
+                    <Link>Service client</Link>
+                    <Link>Chèques-cadeaux</Link>
+                    <Link>Idées cadeaux</Link>
+                    <Link>Vendre</Link>
                 </div>
             </div>
         </div>
