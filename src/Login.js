@@ -13,7 +13,7 @@ function Login() {
         .then((auth) => {
             history.push('/')
         })
-        .catch(e => alert(e.message))
+        .catch(e => alert("Adresse email ou mot de passe erroné.\n"+ e.message))
     }
 
     const signupuser = event => {
@@ -21,8 +21,9 @@ function Login() {
         auth.createUserWithEmailAndPassword(useremail,userpassword)
         .then((auth) => {
             history.push('/login')
+            alert("Votre compte a été créé !\nVous pouvez dès à présent vous connecter.")
         })
-        .catch(e => alert(e.message))
+        .catch(e => alert("L'adresse email est déjà utilisée.\n"+ e.message))
     }
     return (
         <div className="login">
