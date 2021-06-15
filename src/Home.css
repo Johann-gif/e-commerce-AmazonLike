@@ -4,6 +4,27 @@
     margin-right: auto;
 }
 
+.home .home--products {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .home .home--products > * {
+        width: 42%;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home .home--products > * {
+        width: 25%;
+    }
+}
+
 .home__carousel{
     height: 600px;
     margin-bottom: -150px;
