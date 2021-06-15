@@ -13,6 +13,7 @@
 
 .product__rating{
     display: flex;
+    color: rgb(209, 209, 31);
 }
 
 .product__info{
