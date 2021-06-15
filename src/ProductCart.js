@@ -29,7 +29,7 @@ function ProductCart({ id, title, image, price, rating }) {
                             ))
                     }
                 </div>
-                <button onClick={removeItem}>Remove from the Cart</button>
+                <button onClick={removeItem}>Retirer du panier</button>
             </div>
         </div>
     )
