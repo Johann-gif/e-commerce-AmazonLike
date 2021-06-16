@@ -1,6 +1,8 @@
 import React from 'react'
 import './ProductCart.css'
 import { useStateValue } from './StateProvider'
+import StarIcon from '@material-ui/icons/Star';
+import StarBorderIcon from '@material-ui/icons/StarBorder';
 
 function ProductCart({ id, title, image, price, rating }) {
 
@@ -25,11 +27,19 @@ function ProductCart({ id, title, image, price, rating }) {
                         Array(rating)
                             .fill()
                             .map((_) => (
-                                <span>*</span>
+                                <StarIcon/>
                             ))
+                        
+                    }
+                    {
+                        Array(5-rating)
+                        .fill()
+                        .map((_)=>(
+                            <StarBorderIcon/>
+                        ))
                     }
                 </div>
-                <button onClick={removeItem}>Remove from the Cart</button>
+                <button onClick={removeItem}>Retirer du panier</button>
             </div>
         </div>
     )

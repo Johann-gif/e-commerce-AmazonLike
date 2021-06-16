@@ -14,7 +14,7 @@ function Subtotal(){
             <CurrencyFormat
                 renderText={(value) => (
                     <p>
-                        Subtotal ( {basket.length} articles ) : <strong>{`${value}`}</strong>
+                        Total ( {basket.length} articles ) : <strong>{`${value}`}</strong>
                     </p>
                 )}
                 decimalScale={2}
@@ -23,7 +23,7 @@ function Subtotal(){
                 thousandSeparator={true}
                 suffix={"€"}
             />
-            <button className="checkout__button">Proceed to Checkout</button>
+            <button className="checkout__button">Commander</button>
         </div>
     )
 }
