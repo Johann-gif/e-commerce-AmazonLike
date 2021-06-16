@@ -5,7 +5,7 @@ import StarIcon from '@material-ui/icons/Star';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import { useHistory } from 'react-router';
 
-function Product({ id, title, image, price, rating }) {
+function Product({ id, title, image, price, rating, description}) {
     const [{basket}, dispatch] = useStateValue();
     const hist = useHistory()
 
@@ -19,7 +19,8 @@ function Product({ id, title, image, price, rating }) {
                 title: title,
                 image: image,
                 price: price,
-                rating: rating
+                rating: rating,
+                description: description
             }
         })
     }
@@ -33,7 +34,8 @@ function Product({ id, title, image, price, rating }) {
                 title: title,
                 image: image,
                 price: price,
-                rating: rating
+                rating: rating,
+                description: description
             }
         })
     }

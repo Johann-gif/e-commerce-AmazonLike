@@ -53,7 +53,7 @@ function getProducts() {
             
             <div className="home__row">
             {products.map((product) => (
-                <Product id={product.id} title={product.title} price={product.price} rating={product.rating} image={product.image}/>
+                <Product id={product.id} title={product.title} price={product.price} rating={product.rating} image={product.image} description={product.description}/>
                 ))}
 
             </div>
