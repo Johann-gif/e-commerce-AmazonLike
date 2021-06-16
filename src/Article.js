@@ -7,12 +7,30 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { useLocation } from 'react-router';
 import StarIcon from '@material-ui/icons/Star';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
+import {useStateValue} from './StateProvider'
 
 function Article({ id, title, image, price, rating }){
     const location = useLocation();
     useEffect(() => {
         console.log(location.state)
     })
+    const [{basket}, dispatch] = useStateValue();
+
+
+    const addToBasket = () => {
+        dispatch({
+            type: 'ADD_TO_BASKET',
+            item: {
+                id: location.state.id,
+                title: location.state.title,
+                image: location.state.image,
+                price: location.state.price,
+                rating: location.state.rating,
+                description: location.state.description
+            }
+        })
+    }
+
     return (
         <div className="article">
             <div className="img">
@@ -41,7 +59,7 @@ function Article({ id, title, image, price, rating }){
                 <p>Description : {location.state.description}</p>
             </div>
             <div className="giveMeYourMoney">
-                <button className="buttonPanier">Ajouter au panier</button>
+                <button onClick={addToBasket} className="buttonPanier">Ajouter au panier</button>
             </div>
         </div>
     )
