@@ -15,7 +15,7 @@ function Footer() {
                 <div className="footerarea__linkarea">
                     <p><strong>Pour mieux nous connaître</strong></p>
                     <Link to="/">
-                        <p>À propos d'Amazon</p>
+                        <p>À propos d'Family Games</p>
                     </Link>
                     <Link to="/">
                         <p>Carrières</p>
@@ -27,17 +27,17 @@ function Footer() {
                 <div className="footerarea__linkarea">
                     <p><strong>Gagnez de l'argent</strong></p>
                     <Link to="/">
-                        <p>Vendez sur Amazon</p>
+                        <p>Vendez sur Family Games</p>
                     </Link>
                     <Link to="/">
-                        <p>Vendez sur Amazon Business</p>
+                        <p>Vendez sur Family Games Business</p>
                     </Link>
                     <Link to="/">
-                        <p>Vendez sur Amazon Handmade</p>
+                        <p>Vendez sur Family Games Handmade</p>
                     </Link>
                 </div>
                 <div className="footerarea__linkarea">
-                    <p><strong>Moyens de paiement Amazon</strong></p>
+                    <p><strong>Moyens de paiement Family Games</strong></p>
                     <Link to="/">
                         <p>Cartes de paiement</p>
                     </Link>
@@ -45,13 +45,13 @@ function Footer() {
                         <p>Paiement en plusieurs fois</p>
                     </Link>
                     <Link to="/">
-                        <p>Amazon Currency Converter</p>
+                        <p>Family Games Currency Converter</p>
                     </Link>
                 </div>
                 <div className="footerarea__linkarea">
                     <p><strong>Besoin d'aide ?</strong></p>
                     <Link to="/">
-                        <p>Amazon et COVID-19</p>
+                        <p>Family Games et COVID-19</p>
                     </Link>
                     <Link to="/">
                         <p>Voir ou suivre vos commandes</p>

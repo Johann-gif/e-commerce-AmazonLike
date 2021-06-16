@@ -21,7 +21,7 @@
 }
 
 .productcart__rating{
-    color: rgb(209, 209, 31);
+    color: #994554;
 }
 
 .productcart__info{
@@ -29,13 +29,17 @@
 }
 
 .productcart__info > button{
-    background-color: #f0c14b;
-    border: 1px solid;
-    border-radius: 2px;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
+    margin: 15px 0;
+    background-color: #9D4454;
+    border: 1px solid #9D4454;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .productcart__info > button:hover{
-    background-color: #e4b53e;
+    background-color: #C2717F;
 }

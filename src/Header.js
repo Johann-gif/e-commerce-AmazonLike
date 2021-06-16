@@ -17,7 +17,7 @@ function Header() {
     return (
         <nav className="header">
             <Link to="/">
-                <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo" />
+            <img className="header__logo" src="https://cdn.discordapp.com/attachments/775298342488899590/854801327170125844/logo_aclab.png" alt="logo" />
             </Link>
             <div className="header__search">
                 <input type="text" className="header__searchInput" />
@@ -41,7 +41,7 @@ function Header() {
             </div>
             {/* basket icon with number */}
             <Link to="/checkout" className="header__link">
-                <div className="header__optionBasket">
+            <div className="header__optionBasket header__logoBasket">
                     <ShoppingBasketIcon/>
                     {/* number of items in the basket */}
                     {

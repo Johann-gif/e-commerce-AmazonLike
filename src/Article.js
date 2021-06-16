@@ -57,10 +57,11 @@ function Article({ id, title, image, price, rating }){
                 </div>
                 <p>Prix : {location.state.price}€</p>
                 <p>Description : {location.state.description}</p>
-            </div>
-            <div className="giveMeYourMoney">
+                <div className="giveMeYourMoney">
                 <button onClick={addToBasket} className="buttonPanier">Ajouter au panier</button>
             </div>
+            </div>
+            
         </div>
     )
 }

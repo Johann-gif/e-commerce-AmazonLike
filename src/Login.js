@@ -27,8 +27,8 @@ function Login() {
     }
     return (
         <div className="login">
-            <Link>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png" alt="" className="login__logo"/>
+            <Link to="/">
+                <img src="https://cdn.discordapp.com/attachments/775298342488899590/854801327170125844/logo_aclab.png" alt="" className="login__logo"/>
             </Link>
             <div className="login__container">
                 <h1>Se connecter</h1>
@@ -40,7 +40,7 @@ function Login() {
                     <button onClick={loginuser} type="submit" className="login__signInButton">Se connecter</button>
                 </form>
                 <p>
-                    By signin-in, you agree to Amazon's Terms and Conditions
+                   En vous connectant, vous acceptez les termes et conditions d'utilisation de Family Games.
                 </p>
                 <button onClick={signupuser} className="login__registerButton">Créer un compte</button>
             </div>

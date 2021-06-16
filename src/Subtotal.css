@@ -3,6 +3,13 @@
 }
 
 .checkout__button{
-    padding: 0;
-    margin: 0;
+    margin: 15px 0;
+    background-color: #9D4454;
+    border: 1px solid #9D4454;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
 }
