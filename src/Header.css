@@ -1,5 +1,5 @@
 .header{
-    background-color: #131921;
+    background-color: #1D5648;
     display: flex;
     align-items: center;
     position: sticky;
@@ -29,9 +29,11 @@
 .header__searchIcon{
     padding: 5px;
     height: 22px !important;
-    background-color: #cd904d;
+    background-color: #994554;
 }
-
+.header__logoBasket{
+    color: #994554;
+}
 .header__option{
     display: flex;
     flex-direction: column;

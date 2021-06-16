@@ -1,5 +1,5 @@
 .navlinks{
-    background-color: #232f3e;
+    background-color: #306A5B;
     height: 39px;
     color: white;
 }
@@ -17,7 +17,7 @@
     padding: 5px;
     margin-top: 10px;
     margin-right: 10px;
-    border: 1px solid #232f3e;
+    border: 1px solid #306A5B;
 }
 
 .navlinks__outer a:hover{
