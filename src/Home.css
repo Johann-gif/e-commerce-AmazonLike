@@ -3,27 +3,35 @@
     margin-left: auto;
     margin-right: auto;
 }
+.home--products-container{
+    justify-content: center;
+    display: flex;
+}
 
 .home .home--products {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    z-index: 1;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    Width: 90%;
 }
+
 
 @media screen and (min-width: 768px) {
     .home .home--products > * {
-        width: 42%;
+        width: 41%;
         margin: 10px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .home .home--products > * {
-        width: 25%;
+        width: 26%;
     }
 }
+
 
 .home__carousel{
     height: 600px;
