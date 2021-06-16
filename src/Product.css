@@ -53,7 +53,7 @@
     background-color: #C2717F;
 }
 
-.product:hover {
+.product > img:hover {
     cursor: pointer;
 }
 

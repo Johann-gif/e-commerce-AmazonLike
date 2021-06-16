@@ -29,11 +29,15 @@
     border: 1px solid #9D4454;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #FFFFFF;
     font-weight: 700;
     cursor: pointer;
 }
+.login__signInButton:hover{
+    background-color: #C2717F;
+}
+
 
 .login__registerButton{
     margin: 15px 0;
@@ -46,6 +50,11 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+.login__registerButton:hover{
+    background-color: #C2717F;
+}
+
 
 .login__container p {
     margin-top: 15px;

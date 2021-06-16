@@ -15,7 +15,7 @@ function Footer() {
                 <div className="footerarea__linkarea">
                     <p><strong>Pour mieux nous connaître</strong></p>
                     <Link to="/">
-                        <p>À propos d'Family Games</p>
+                        <p>À propos de Family Games</p>
                     </Link>
                     <Link to="/">
                         <p>Carrières</p>
