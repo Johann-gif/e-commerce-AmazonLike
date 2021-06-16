@@ -13,7 +13,7 @@
 
 .product__rating{
     display: flex;
-    color: rgb(209, 209, 31);
+    color: #994554;
     margin-top: 5px;
 }
 
@@ -39,20 +39,22 @@
 }
 
 .product > button {
-    background-color: #f0c14b;
-    border: 1px solid;
-    border-radius: 2px;
-    border-color: #a88734 #9c7e31 #846a29;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: #9D4454;
+    border: 1px solid #9D4454;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .product > button:hover {
-    background-color: #e4b53e;
+    background-color: #C2717F;
 }
 
 .product:hover {
-    background-color: rgb(248, 241, 241);
+    cursor: pointer;
 }
 
 .product:hover > img {
