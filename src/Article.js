@@ -10,7 +10,7 @@ function Article({ id, title, image, price, rating }){
     useEffect(() => {
         console.log(location.state)
     })
-    const [dispatch] = useStateValue();
+    const [{basket}, dispatch] = useStateValue();
 
 
     const addToBasket = () => {
@@ -30,7 +30,7 @@ function Article({ id, title, image, price, rating }){
     return (
         <div className="article">
             <div className="img">
-                <img className="mainImg" src={location.state.image} alt=""/>
+                <img className="mainImg" src={location.state.image}/>
             </div>
             <div className="description">
                 <h1>{location.state.title}</h1>
