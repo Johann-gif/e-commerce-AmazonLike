@@ -19,9 +19,9 @@
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
     margin-top: 25px;
+    align-items: start;
 }
 
 /* .footerarea__linkarea{

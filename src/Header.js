@@ -7,8 +7,7 @@ import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
 
 function Header() {
-    const [{basket, loggedinuser}, dispatch] = useStateValue();
-    //console.log("my basket",basket);
+    const [{basket, loggedinuser}] = useStateValue();
     const logoutUser = () => {
         if(loggedinuser){
             auth.signOut();

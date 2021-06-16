@@ -1,9 +1,5 @@
-import React, { useEffect, useState} from 'react'
+import React, { useEffect} from 'react'
 import './Article.css';
-import Product from './Product'
-import {db} from './firebase'
-import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { useLocation } from 'react-router';
 import StarIcon from '@material-ui/icons/Star';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
@@ -14,7 +10,7 @@ function Article({ id, title, image, price, rating }){
     useEffect(() => {
         console.log(location.state)
     })
-    const [{basket}, dispatch] = useStateValue();
+    const [dispatch] = useStateValue();
 
 
     const addToBasket = () => {
@@ -34,7 +30,7 @@ function Article({ id, title, image, price, rating }){
     return (
         <div className="article">
             <div className="img">
-                <img className="mainImg" src={location.state.image}/>
+                <img className="mainImg" src={location.state.image} alt=""/>
             </div>
             <div className="description">
                 <h1>{location.state.title}</h1>
