@@ -1,16 +1,16 @@
 # Site de e-commerce
 
-Ce projet est un site de e-commerce d'achat de jeu en ligne. Les technologies utilisées sont docker pour la conteneurisation, React et Firebase
+Ce projet est un site de e-commerce d'achat de jeu en ligne.\ Les technologies utilisées sont docker pour la conteneurisation, React et Firebase
 
 # Lancement du projet
-Mettez-vous à la racine du projet et dans votre invite de commande faites un "docker-compose up"
-Les installations seront faites et le serveur lancé.
-Vous pourrez ensuite vous rentre sur "http://localhost:3000" pour afficher le home page
+Mettez-vous à la racine du projet et dans votre invite de commande faites un `docker-compose up` .\
+Les installations seront faites et le serveur lancé .\
+Vous pourrez ensuite vous rentre sur `http://localhost:3000` pour afficher le home page
 
 # Différentes fonctionalités
-vous pouvez créer un compte et vous y connecter pour effectuer vos achats de jeu
-Consulter le catalogue de jeu en vente et la fiche produit associée à chaque jeu
-Vous pouvez également constituer votre panier pour le paiement dont le module sera développé ultérieurement
+vous pouvez créer un compte et vous y connecter pour effectuer vos achats de jeu .\
+Consulter le catalogue de jeu en vente et la fiche produit associée à chaque jeu .\
+Vous pouvez également constituer votre panier pour le paiement dont le module sera développé ultérieurement .\
 
 
 
