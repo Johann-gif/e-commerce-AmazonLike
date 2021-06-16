@@ -5,6 +5,7 @@ import Home from './Home'
 import Checkout from './Checkout'
 import Footer from './Footer'
 import Navlinks from './Navlinks'
+import Article from './Article'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import {auth} from './firebase'
 import {useEffect} from 'react'
@@ -43,6 +44,12 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/produit">
+            <Header />
+            <Navlinks/>
+            <Article />
+            <Footer/>
           </Route>
           <Route path="/">
             <Header />

@@ -11,7 +11,10 @@ function Home(){
 
     const ref = db.collection("products");
     const [currImg, setCurrImg] = useState(1);
-    const images = ["https://images-eu.ssl-images-amazon.com/images/G/08/em/pd21/xcm_em_Prime_Day_2021_856-FRFR_D_PDS-HP-Tall-Hero_1500x600._CB667248309_.jpg", "https://images-eu.ssl-images-amazon.com/images/G/08/kindle/journeys/OWUxNzk1ZDEt/OWUxNzk1ZDEt-ZDE2MDgyMmEt-w1500._CB669644074_.jpg", "https://images-eu.ssl-images-amazon.com/images/G/08/digital/video/gateway/placement/launch/MixteS1/VMIX_S1_GWBleedingHero_HO_COVIDUPDATE_XSite_1500X600_PV_fr-FR._CB666039474_.jpg"]
+    const images = [
+    "https://media.discordapp.net/attachments/775298342488899590/854783048679555112/540510-monopoly-fete-ses-85-ans-au-bhv-marais.png?width=856&height=676"
+    , "https://media.discordapp.net/attachments/775298342488899590/854781799628406824/b20e15f_oLyBcQgVp2b_9xbbzgzj56mi.png?width=1352&height=676",
+     "https://media.discordapp.net/attachments/775298342488899590/854781920361709568/maxresdefault.png?width=1202&height=676"]
     
 function getProducts() {
     setLoading(true);
