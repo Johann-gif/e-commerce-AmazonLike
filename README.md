@@ -12,7 +12,8 @@ vous pouvez créer un compte et vous y connecter pour effectuer vos achats de je
 Consulter le catalogue de jeu en vente et la fiche produit associée à chaque jeu .\
 Vous pouvez également constituer votre panier pour le paiement dont le module sera développé ultérieurement .\
 
-
+# Démo site
+https://youtu.be/-PeqmhsCHJs .\
 
 # Getting Started with Create React App
 
