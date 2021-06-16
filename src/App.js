@@ -26,6 +26,7 @@ function App() {
           user: null
         })
       }
+      document.title = "Family Games"
     })
     return () => {
       unsubscribe();
@@ -33,7 +34,6 @@ function App() {
   },[])
 
   console.log("user", loggedinuser);
-
   return (
     <Router>
       <div className="App">
