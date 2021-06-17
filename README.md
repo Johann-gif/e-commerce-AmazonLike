@@ -28,7 +28,7 @@ https://aclab-family-games.netlify.app/
 - Johann
 - Nicolas
 - Etiam
-- Daniel
+- Denis
 - Youssef
 
 # Getting Started with Create React App
