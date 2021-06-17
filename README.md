@@ -1,4 +1,14 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/58be91e4-f398-43c8-8184-bf35a73b626e/deploy-status)](https://app.netlify.com/sites/aclab-family-games/deploys)
+![Top language](https://img.shields.io/github/languages/top/Johann-gif/e-commerce-acalab)
+![Repo size](https://img.shields.io/github/repo-size/Johann-gif/e-commerce-acalab)\
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58be91e4-f398-43c8-8184-bf35a73b626e/deploy-status)](https://app.netlify.com/sites/aclab-family-games/deploys)\
+[![Website](https://img.shields.io/website-up-down-green-red/https/aclab-family-games.netlify.app)](https://aclab-family-games.netlify.app/)\
+[![GitHub contributors](https://img.shields.io/github/contributors/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/graphs/contributors/)\
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/Johann-gif/e-commerce-acalab/graphs/commit-activity)\
+[![Issue open](https://img.shields.io/github/issues/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/issues)
+[![Issue closed](https://img.shields.io/github/issues-closed/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/issues?q=is%3Aissue+is%3Aclosed)\
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/pull/)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/pull/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-roundsquare)](http://makeapullrequest.com)
 
 # Site de e-commerce
 Ce projet est un site de e-commerce d'achat de jeu en ligne.\
