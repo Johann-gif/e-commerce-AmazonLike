@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58be91e4-f398-43c8-8184-bf35a73b626e/deploy-status)](https://app.netlify.com/sites/aclab-family-games/deploys)
+
 # Site de e-commerce
 Ce projet est un site de e-commerce d'achat de jeu en ligne.\
 Les technologies utilisées sont docker pour la conteneurisation, React et Firebase.
@@ -14,6 +16,10 @@ Vous pouvez également constituer votre panier pour le paiement dont le module s
 
 # Démo site
 https://youtu.be/-PeqmhsCHJs
+
+# Site hébergé sur Netlify
+
+https://aclab-family-games.netlify.app/
 
 # Membres du groupe
 
