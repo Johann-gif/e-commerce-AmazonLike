@@ -1,3 +1,6 @@
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)\
 ![Top language](https://img.shields.io/github/languages/top/Johann-gif/e-commerce-acalab)
 ![Repo size](https://img.shields.io/github/repo-size/Johann-gif/e-commerce-acalab)\
 [![Netlify Status](https://api.netlify.com/api/v1/badges/58be91e4-f398-43c8-8184-bf35a73b626e/deploy-status)](https://app.netlify.com/sites/aclab-family-games/deploys)\
