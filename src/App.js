@@ -6,7 +6,8 @@ import Checkout from './Checkout'
 import Footer from './Footer'
 import Navlinks from './Navlinks'
 import Article from './Article'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Page404 from './Page404'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import {auth} from './firebase'
 import {useEffect} from 'react'
 import { useStateValue } from './StateProvider';
@@ -43,20 +44,27 @@ function App() {
             <Checkout/>
             <Footer/>
           </Route>
-          <Route path="/login">
+          <Route exact path="/login">
             <Login />
           </Route>
-          <Route path="/produit">
+          <Route exact path="/produit">
             <Header />
             <Navlinks/>
             <Article />
             <Footer/>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Header />
             <Navlinks/>
             <Home />
             <Footer/>
+          </Route>
+          <Route>
+            <Redirect to="/Oops" />
+            <Header />
+            <Navlinks/>
+            <Page404 />
+            <Footer />
           </Route>
         </Switch>
 
