@@ -6,8 +6,8 @@
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/Johann-gif/e-commerce-acalab/graphs/commit-activity)\
 [![Issue open](https://img.shields.io/github/issues/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/issues)
 [![Issue closed](https://img.shields.io/github/issues-closed/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/issues?q=is%3Aissue+is%3Aclosed)\
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/pull/)
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/pull/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/pulls/)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Johann-gif/e-commerce-acalab)](https://github.com/Johann-gif/e-commerce-acalab/pulls?q=is%3Apr+is%3Aclosed)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-roundsquare)](http://makeapullrequest.com)
 
 # Site de e-commerce
