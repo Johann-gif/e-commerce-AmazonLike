@@ -21,7 +21,9 @@ function getProducts() {
     ref.onSnapshot((querySnapshot) => {
         const items = [];
         querySnapshot.forEach((doc) => {
-            items.push(doc.data());
+            var tmp = doc.data()
+            tmp.id = doc.id
+            items.push(tmp);
         });
         setProducts(items);
         setLoading(false);
@@ -41,13 +43,13 @@ function getProducts() {
             
             <div className="home__carousel">
                 <div className="home__carousel__image" style={{ backgroundImage: `url(${images[currImg]})` }}>
-                    <div className="home__carousel__left" onClick={() => { currImg > 0 && setCurrImg(currImg - 1); console.log(images[currImg]) }}>
+                    <div className="home__carousel__left" onClick={() => { currImg > 0 && setCurrImg(currImg - 1);}}>
                         <ArrowBackIosIcon style={{ fontSize: 30 }} />
                     </div>
                     <div className="home__carousel__center">
                        
                     </div>
-                    <div className="home__carousel__right" onClick={() => { currImg < images.length - 1 && setCurrImg(currImg + 1); console.log(images[currImg])  }}>
+                    <div className="home__carousel__right" onClick={() => { currImg < images.length - 1 && setCurrImg(currImg + 1);}}>
                         <ArrowForwardIosIcon style={{ fontSize: 30 }} />
                     </div>
                 </div>

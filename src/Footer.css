@@ -21,7 +21,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 25px;
-    align-items: start;
+    align-items: flex-start;
 }
 
 /* .footerarea__linkarea{

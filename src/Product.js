@@ -9,8 +9,6 @@ function Product({ id, title, image, price, rating, description}) {
     const [{basket}, dispatch] = useStateValue();
     const hist = useHistory()
 
-    console.log('basket content', basket)
-
     const addToBasket = () => {
         dispatch({
             type: 'ADD_TO_BASKET',
@@ -26,7 +24,6 @@ function Product({ id, title, image, price, rating, description}) {
     }
 
     const routeChange = () => {
-        console.log(id)
         hist.push({
             pathname: '/produit',
             state: {

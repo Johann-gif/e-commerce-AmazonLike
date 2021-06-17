@@ -40,6 +40,7 @@ function App() {
         <Switch>
           <Route path="/checkout">
             <Header />
+            <Navlinks/>
             <Checkout/>
             <Footer/>
           </Route>

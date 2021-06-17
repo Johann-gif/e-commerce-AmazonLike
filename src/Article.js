@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react'
+import React, { useEffect, useState} from 'react'
 import './Article.css';
 import { useLocation } from 'react-router';
 import StarIcon from '@material-ui/icons/Star';

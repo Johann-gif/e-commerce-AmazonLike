@@ -7,10 +7,9 @@ function Subtotal(){
 
     const getCartTotal = (basket) => basket?.reduce((amount,item)=> item.price + amount, 0);
 
-    const [{basket}] = useStateValue();
+    const [{basket}, dispatch] = useStateValue();
     return(
         <div className="subtotal">
-            {/* price */}
             <CurrencyFormat
                 renderText={(value) => (
                     <p>

@@ -16,6 +16,11 @@
     font-weight: 600;
 }
 
+.productcart__title:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
 .productcart__price{
 
 }
